@@ -77,5 +77,14 @@ const Container = styled.div<ContainerProps>`
   backgrond-position: center;
   transition: all 0.2s ease-in;
 `;
-const Box = styled.div``;
-const ProjectTitle = styled.h1``;
+const Box = styled.div`
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 5rem;
+  background-color: rgba(255, 255, 255, 0.3);
+`;
+const ProjectTitle = styled.h1`
+  color: white;
+  margin: 1rem;
+`;
